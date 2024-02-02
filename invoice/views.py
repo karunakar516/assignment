@@ -17,3 +17,6 @@ class InvoiceDetailViewSet(viewsets.ModelViewSet):
         if self.action == 'update':
             return InvoiceDetailUpdateSerializer
         return InvoiceSerializer
+
+
+

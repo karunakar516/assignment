@@ -18,5 +18,3 @@ class InvoiceDetailViewSet(viewsets.ModelViewSet):
             return InvoiceDetailUpdateSerializer
         return InvoiceSerializer
 
-
-
